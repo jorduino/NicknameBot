@@ -1,0 +1,20 @@
+{
+  "name": "nicknamebot",
+  "version": "0.1.0",
+  "description": "Discord bot for changing nicknames",
+  "homepage": "https://github.com/jorduino/NicknameBot#readme",
+  "bugs": {
+    "url": "https://github.com/jorduino/NicknameBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorduino/NicknameBot.git"
+  },
+  "license": "ISC",
+  "author": "Jordan Habash",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
