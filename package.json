@@ -1,20 +1,34 @@
 {
   "name": "nicknamebot",
   "version": "0.1.0",
-  "description": "Discord bot for changing nicknames",
-  "homepage": "https://github.com/jorduino/NicknameBot#readme",
-  "bugs": {
-    "url": "https://github.com/jorduino/NicknameBot/issues"
-  },
+  "author": "Jordan Habash",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jorduino/NicknameBot.git"
   },
-  "license": "ISC",
-  "author": "Jordan Habash",
-  "type": "module",
   "main": "main.js",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "biome": "^0.3.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "markdownlint": "^0.40.0",
+    "markdownlint-cli": "^0.47.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "bugs": {
+    "url": "https://github.com/jorduino/NicknameBot/issues"
+  },
+  "description": "Discord bot for changing nicknames",
+  "homepage": "https://github.com/jorduino/NicknameBot#readme",
+  "license": "ISC",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "lint": "biome check"
+  },
+  "type": "module"
 }
